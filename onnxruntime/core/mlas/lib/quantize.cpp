@@ -24,7 +24,7 @@ Abstract:
     defined(MLAS_LSX_INTRINSICS)
 
 #include <type_traits>
-
+#pragma GCC diagnostic ignored "-Wstrict-aliasing"
 //
 // QuantizeLinear implementation using NEON or SSE2 intrinsics.
 //
